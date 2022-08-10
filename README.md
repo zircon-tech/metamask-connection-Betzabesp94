@@ -36,15 +36,15 @@ I've tested this feature a couple of times when invoke functions addAdmin and Vo
 add admin
 ![AddadminCode](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/addadmincode.PNG?raw=true)
 
-![addAdmin](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/blob/main/media/addadmin.PNG?raw=true)
+![addAdmin](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/addadmin.PNG)
 
 vote 
-![vote](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/blob/main/media/vote.PNG?raw=true)
+![vote](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/vote.PNG)
 
 ### Issues faced
 - typedefinition signer at pages/index.tsx l.34, bassically I couldn't asingn a value (solved by set type <any>) 
 - Type error cannot read properties of undefied (reading 'Contract')
-![err2](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/blob/main/media/err2.JPG?raw=true)
+![err2](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/err2.JPG)
 Previous Solved by changing from 
 ```typescript
 import ethers from “ethers” 
@@ -98,18 +98,12 @@ Lo primero es hacer clic en el botón conectar seleccionar el proveedor y selecc
 
 He probado esta función un par de veces cuando invoco las funciones addAdmin y Vote del contrato.
 
-add admin
-![AddadminCode](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/addadmincode.PNG?raw=true)
-
-![addAdmin](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/blob/main/media/addadmin.PNG?raw=true)
-
-vote 
-![vote](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/blob/main/media/vote.PNG?raw=true)
+(imagenes de arriba)
 
 ### Problemas
 - typedefinition signer en pages/index.tsx l.34, basicamente no podía asiganele un valor (arreglado definiendo tipo  <any>) 
 - Type error cannot read properties of undefied (reading 'Contract')
-![err2](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/blob/main/media/err2.JPG?raw=true)
+![err2](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/err2.JPG)
 Lo anterior se solucionó cambiando de 
 ```typescript
 import ethers from “ethers” 
@@ -126,7 +120,7 @@ Esta publicación me ayudó: [Pregunta Stack Exchange](https://ethereum.stackexc
 https://metamask-connection-betzabesp94.vercel.app/
 
 Puedes probar directamente en etherscan: 
-- [Etherscan Contrato Lectura ](https://kovan.etherscan.io/address/0x947D0f6E593e30e0eE27f8D4BB6d4805fd1964e6#readContract) (Search for proposal 0, and votingOption 5)
+- [Etherscan Contrato Lectura ](https://kovan.etherscan.io/address/0x947D0f6E593e30e0eE27f8D4BB6d4805fd1964e6#readContract) (Busca proposal 0, y votingOption 5)
 - [Etherscan Contrato Escritura](https://kovan.etherscan.io/address/0x947D0f6E593e30e0eE27f8D4BB6d4805fd1964e6#writeContract)
 
 Si quieres probar pidele a Betza (yo) 🙆‍♀️ permisos de escritura, basicamente, que te agregue como votante. 
