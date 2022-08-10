@@ -42,7 +42,7 @@ vote
 ![vote](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/vote.PNG)
 
 ### Issues faced
-- typedefinition signer at pages/index.tsx l.34, bassically I couldn't asingn a value (solved by set type <any>) 
+- typedefinition signer at pages/index.tsx l.34, bassically I couldn't asingn a value (solved by set type any) 
 - Type error cannot read properties of undefied (reading 'Contract')
 ![err2](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/err2.JPG)
 Previous Solved by changing from 
@@ -101,7 +101,7 @@ He probado esta función un par de veces cuando invoco las funciones addAdmin y 
 (imagenes de arriba)
 
 ### Problemas
-- typedefinition signer en pages/index.tsx l.34, basicamente no podía asiganele un valor (arreglado definiendo tipo  <any>) 
+- typedefinition signer en pages/index.tsx l.34, basicamente no podía asiganele un valor (arreglado definiendo tipo  any) 
 - Type error cannot read properties of undefied (reading 'Contract')
 ![err2](https://github.com/zircon-tech/metamask-connection-Betzabesp94/blob/main/media/err2.JPG)
 Lo anterior se solucionó cambiando de 
